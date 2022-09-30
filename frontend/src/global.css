@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Metropoliz";   /*Can be any text*/
+    src: local(""),
+      url("./components/font/Metropolis-Regular.otf") format("opentype");
+  }
+  @font-face {
+    font-family: "Metropoliz";   /*Can be any text*/
+    font-weight: bold;
+    src: local(""),
+      url("./components/font/Metropolis-Bold.otf") format("opentype");
+  }
+
+* {
+    font-family: "Metropoliz" !important;
+    font-weight: bold;
+}
+
+h1 {
+    font-weight: bold !important;
+}
+
+td, th {
+    text-align: center !important;
+    padding: 1rem !important;
+}
+
+button>a{
+    color: #fff !important;
+}
